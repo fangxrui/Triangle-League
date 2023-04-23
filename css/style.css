@@ -713,7 +713,7 @@ color:#fff;
 }
 
 .service-list-col1 i {
-    display:;
+    /* display:; */
     color: #888;
     font-size: 19px;
     font-style: normal;
@@ -1135,6 +1135,10 @@ margin-bottom: 5px;
     color: #55acee;
 }
 
+.team_box ul li a.fa-instagram:hover {
+    color: #c271c2;
+}
+
 .team_box ul li a.fa-facebook:hover {
     color: #3b5998;
 }
@@ -1297,7 +1301,7 @@ transition: all .3s;
     text-align: center;
     line-height: 50px;
     font-size: 25px;
-    color: #fff;
+    color: #140e0e;
 }
 
 .social_links li a:hover, .social_links li a:focus {
