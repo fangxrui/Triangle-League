@@ -479,8 +479,9 @@
               <input type="hidden" name="_subject" value="New submission!">
               <!-- <input type="hidden" name="_next" value="https://triangle-league.com/thanks.html"> -->
               <input class="input-text" type="text" name="email" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" required>
-              <textarea class="input-text text-area" name="message" cols="0" rows="0" placeholder="Your Message" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" required></textarea>
-              <!-- <textarea name="message" placeholder="Details of your problem"></textarea> -->
+              <!-- <textarea class="input-text text-area" name="message" cols="0" rows="0" placeholder="Your Message" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" required></textarea> -->
+              <textarea name="message" class="input-text text-area" cols="0" rows="0" placeholder="Details of your problem" required></textarea>
+              
               <button class="input-btn" type="submit">Send message</button>
 
             </form>
